@@ -1,0 +1,250 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta
+    name="description"
+    content="Discover beautiful restaurants and reserve your table with ease."
+>
+
+<title>DineReserve | Discover Great Restaurants</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head> <body>
+<header class="navbar">
+    <div class="container navbar-content">
+
+        <a href="/" class="logo" aria-label="DineReserve home">
+            <span class="logo-icon">🍽</span>
+            <span>DineReserve</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="#restaurants">Restaurants</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#restaurants" class="nav-button">
+            Find a Table
+        </a>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p class="hero-label">
+                YOUR NEXT GREAT MEAL AWAITS
+            </p>
+
+            <h1>
+                Discover places<br>
+                worth <span>tasting.</span>
+            </h1>
+
+            <p class="hero-description">
+                Find beautiful restaurants, explore their menus,
+                and reserve your perfect table in just a few clicks.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#restaurants" class="primary-button">
+                    Explore Restaurants
+                    <span>→</span>
+                </a>
+
+                <a href="#about" class="secondary-button">
+                    Learn More
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Restaurant Section -->
+    <section class="restaurants-section" id="restaurants">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">EXPLORE</p>
+                    <h2>Featured Restaurants</h2>
+                </div>
+
+                <p class="section-description">
+                    Discover places perfect for every occasion,
+                    from casual dinners to special celebrations.
+                </p>
+            </div>
+
+
+            <div class="restaurant-grid">
+
+                <!-- Temporary restaurant cards.
+                     These will later come from Django/PostgreSQL. -->
+
+                <article class="restaurant-card">
+
+                    <div class="restaurant-image image-one">
+                        <span class="restaurant-badge">
+                            Popular
+                        </span>
+                    </div>
+
+                    <div class="restaurant-content">
+
+                        <div class="restaurant-title-row">
+                            <h3>The Garden Table</h3>
+                            <span class="rating">★ 4.8</span>
+                        </div>
+
+                        <p class="location">
+                            📍 Downtown
+                        </p>
+
+                        <p class="restaurant-description">
+                            A warm and elegant dining experience
+                            featuring fresh seasonal dishes.
+                        </p>
+
+                        <a href="#" class="card-button">
+                            View Restaurant
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="restaurant-card">
+
+                    <div class="restaurant-image image-two">
+                        <span class="restaurant-badge">
+                            New
+                        </span>
+                    </div>
+
+                    <div class="restaurant-content">
+
+                        <div class="restaurant-title-row">
+                            <h3>Olive & Ember</h3>
+                            <span class="rating">★ 4.7</span>
+                        </div>
+
+                        <p class="location">
+                            📍 Riverside
+                        </p>
+
+                        <p class="restaurant-description">
+                            Contemporary cuisine, intimate interiors,
+                            and a relaxed evening atmosphere.
+                        </p>
+
+                        <a href="#" class="card-button">
+                            View Restaurant
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="restaurant-card">
+
+                    <div class="restaurant-image image-three">
+                        <span class="restaurant-badge">
+                            Recommended
+                        </span>
+                    </div>
+
+                    <div class="restaurant-content">
+
+                        <div class="restaurant-title-row">
+                            <h3>Casa Verde</h3>
+                            <span class="rating">★ 4.9</span>
+                        </div>
+
+                        <p class="location">
+                            📍 City Center
+                        </p>
+
+                        <p class="restaurant-description">
+                            A vibrant restaurant bringing together
+                            classic flavors and modern presentation.
+                        </p>
+
+                        <a href="#" class="card-button">
+                            View Restaurant
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+
+        <div class="container about-content">
+
+            <div>
+                <p class="section-label">ABOUT DINERESERVE</p>
+
+                <h2>
+                    Good food deserves
+                    a great table.
+                </h2>
+            </div>
+
+            <p>
+                DineReserve makes discovering restaurants and
+                booking tables simple. Find a place you love,
+                choose a time that works for you, and enjoy
+                your experience without the hassle.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <p>
+            © 2026 DineReserve. All rights reserved.
+        </p>
+
+        <p>
+            Made for people who love good food.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/main.js"></script>
+
+</body> </html>
